@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/NomProducto"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:translationX="0dp"
+            android:translationY="20dp"
+            android:text="Nombre"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/DesProducto"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:translationX="0dp"
+            android:translationY="60dp"
+            android:text="Descripcion"
+            android:textColor="@color/black"/>
+
+
+        <CheckBox
+            android:id="@+id/cbBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
+            android:text="Agregar al carrito"
+            android:textColor="@color/black"
+            android:translationX="0dp"
+            android:translationY="125dp" />
+
+        <ImageView
+            android:id="@+id/ImageProducto"
+            android:layout_width="110dp"
+            android:layout_height="108dp"
+            android:translationX="290dp"
+            android:translationY="10dp"
+            android:src="@drawable/imagedefault"/>
+
+        <TextView
+            android:id="@+id/PrecioProducto"
+            android:layout_width="100dp"
+            android:layout_height="32dp"
+            android:translationX="310dp"
+            android:translationY="125dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

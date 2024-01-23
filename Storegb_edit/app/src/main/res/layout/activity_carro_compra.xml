@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.storegb_edit.CarroCompra">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:translationX="150dp"
+        android:translationY="550dp"
+        android:text="Total"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Total_Compra"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:translationX="150dp"
+        android:translationY="600dp"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productoscomprados"
+        android:layout_width="400dp"
+        android:layout_height="470dp"
+        android:translationX="5dp"
+        android:translationY="50dp"/>
+
+</RelativeLayout>
+

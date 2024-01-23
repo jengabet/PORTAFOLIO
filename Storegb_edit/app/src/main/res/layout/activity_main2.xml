@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.storegb_edit.MainActivity2">
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:translationX="20dp"
+        android:translationY="48dp"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/ic_baseline_menu_24"
+        android:onClick="showMenu"/>
+
+
+
+    <ImageButton
+        android:id="@+id/btnbuy"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:translationX="300dp"
+        android:translationY="24dp"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/ic_baseline_local_grocery_store_24"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/logo"
+        android:translationX="90dp"
+        android:translationY="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productos"
+        android:layout_width="400dp"
+        android:layout_height="505dp"
+        android:translationX="5dp"
+        android:translationY="140dp"/>
+
+</RelativeLayout>
